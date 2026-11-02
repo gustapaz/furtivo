@@ -6,6 +6,8 @@
 
 Infiltração tática por turnos em seis operações autorais. Recolha dois arquivos, antecipe as patrulhas e alcance a saída sem ser visto. Campanha completa, progressão local e recordes de menor número de turnos por operação. Sem conta, servidor ou serviços pagos.
 
+![Mapa da última operação na demo publicada](docs/public-gameplay.png)
+
 ## Jogar
 
 - Clique no mapa para focá-lo; setas/WASD movem uma casa. Espaço espera um turno.

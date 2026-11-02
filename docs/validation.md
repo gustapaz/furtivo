@@ -15,7 +15,11 @@ Sem dependências npm ou remotas: não há árvore de dependências para `npm au
 
 Hospedagem: GitHub Pages de repositório público, disponível no GitHub Free, sem cartão/faturamento/trial contratado. Documentação oficial consultada: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages.
 
-Resultado final do deploy, conferência remota e varredura são registrados após execução antes da entrega.
+- CI e deploy do commit de implementação `ed6598398cffee23ab42d2ae8b324e0543655ff4` aprovados no run `41451267999`. A atualização seguinte contém apenas documentação/evidências, sem mudança de runtime.
+- As seis operações também foram concluídas na URL pública https://gustapaz.github.io/furtivo/, pelos botões normais, com resultados 15 / 14 / 18 / 23 / 22 / 18 turnos. Tela final de campanha, reinício, pausa por P, Escape e persistência de todos os recordes/liberações após reload confirmados. Evidências: `public-victory.png` e `public-gameplay.png`.
+- Os cinco arquivos públicos (HTML, CSS, favicon, `src/app.js`, `src/game.js`), total de 34.625 bytes sem compressão, foram baixados da demo e comparados byte a byte ao build local: iguais. Sem arquivos de testes/docs no export.
+- Gitleaks 8.30.1, configuração padrão confiável externa ao projeto, sem supressões locais: staged antes do commit, histórico completo, export e clone remoto novo sem achados de segredos. Configurações/workflow/lista de arquivos revisados. A atualização documental passa novamente pela verificação staged/histórico antes do push.
+- Repositório público `gustapaz/furtivo`; secret scanning, push protection e alertas/atualizações de segurança gratuitos habilitados. Apenas `gustapaz` na API de contribuidores. Autor e committer: `Gustavo Paz <96732649+gustapaz@users.noreply.github.com>`; sem coautores adicionados.
 
 ## Limites
 
