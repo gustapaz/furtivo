@@ -1,0 +1,12 @@
+{
+  "name": "furtivo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Infiltração tática por turnos com patrulhas previsíveis.",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "build": "node scripts/build.js",
+    "dev": "python -m http.server 4177 --bind 127.0.0.1"
+  }
+}
